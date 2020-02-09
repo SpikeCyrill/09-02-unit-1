@@ -1,6 +1,9 @@
 package ru.kolosov;
 
+//Класс описывающий сущьность "человек"
 public class Person {
+
+    /*СВОЙСТВА*/
 
     String name;
     String surname;
@@ -8,12 +11,10 @@ public class Person {
 
     Integer age;
 
+    /*МЕТОДЫ*/
+
     public String whoIAm() {
         return name + " " + surname + " " + secondName + " " + age;
     }
-
-}
-
-class SecondClass {
 
 }
